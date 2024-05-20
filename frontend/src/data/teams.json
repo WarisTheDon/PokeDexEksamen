@@ -1,0 +1,68 @@
+{
+    "teams": [
+      {
+        "name": "Team Valor",
+        "slug": "valor",
+        "image": "/src/assets/TeamValor.png",
+        "pokemons": [
+          {
+            "id": 1,
+            "name": "Bulbasaur",
+            "sprites": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+            }
+          },
+          {
+            "id": 2,
+            "name": "Ivysaur",
+            "sprites": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Team Mystic",
+        "slug": "mystic",
+        "image": "/src/assets/TeamMystic.png",
+        "pokemons": [
+          {
+            "id": 3,
+            "name": "Venusaur",
+            "sprites": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+            }
+          },
+          {
+            "id": 4,
+            "name": "Charmander",
+            "sprites": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Team Instinct",
+        "slug": "instinct",
+        "image": "/src/assets/TeamInstinct.png",
+        "pokemons": [
+          {
+            "id": 5,
+            "name": "Charmeleon",
+            "sprites": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+            }
+          },
+          {
+            "id": 6,
+            "name": "Charizard",
+            "sprites": {
+              "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

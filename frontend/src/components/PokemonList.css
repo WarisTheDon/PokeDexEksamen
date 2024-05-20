@@ -1,0 +1,62 @@
+/* Legg til i din CSS-fil, for eksempel style.css */
+
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .pokemon-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .pokemon-card p {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .pokemon-card span {
+    color: #666;
+  }
+  
+  .pokemon-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .pokemon-details img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .pokemon-info h2 {
+    margin-top: 20px;
+  }
+  
+  .pokemon-info div span {
+    display: inline-block;
+    background: #eee;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  .pokemon-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pokemon-info li {
+    margin: 5px 0;
+  }
+  

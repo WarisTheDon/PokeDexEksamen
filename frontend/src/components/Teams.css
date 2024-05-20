@@ -1,0 +1,39 @@
+/* Teams.css */
+
+.teams-container {
+  display: flex;
+  justify-content: center; /* Sentraliserer team-kortene horisontalt */
+  align-items: center; /* Sentraliserer team-kortene vertikalt */
+  flex-wrap: wrap; /* Gjør at kortene bryter til neste rad hvis det ikke er plass */
+  gap: 20px; /* Mellomrom mellom kortene */
+  padding: 20px;
+  margin: 0 auto; /* Sentraliserer team-container på skjermen */
+  max-width: 1200px; /* Sett en maksimal bredde for containeren */
+}
+
+.team-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 0.2s;
+  width: 250px; /* Fast bredde for kortene */
+  height: 350px; /* Fast høyde for kortene */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-card img {
+  width: 80%; /* Skalerer bildet til 80% av bredden av kortet */
+  height: auto;
+  margin-bottom: 10px;
+}

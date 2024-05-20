@@ -1,0 +1,28 @@
+/* src/components/SearchResult.css */
+.pokemon-details {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .pokemon-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .types, .stats {
+    margin: 0 20px;
+  }
+  
+  .type, .stat {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .type {
+    background-color: #eee;
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: inline-block;
+  }
+  
